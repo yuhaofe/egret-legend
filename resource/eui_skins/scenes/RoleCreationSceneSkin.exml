@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.RoleCreationSceneSkin"
+	 width="1136"
+	height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="199d386b9bc"/>
+	<e:Image source="nbg_cjzy_02_jpg" fillMode="clip" height="640" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button label="选择" width="133.359" height="55.411" horizontalCenter="-287.5" verticalCenter="178.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.btn_login_sel_1" source.down="ny_createrole-sheet_json.btn_login_sel_2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" fontFamily="Microsoft YaHei" border="false" stroke="2" verticalAlign="middle" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="startBtn" label="开始" width="133.359" height="55.411" horizontalCenter="-5.5" verticalCenter="180.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image source="ny_createrole-sheet_json.btn_login_start" alpha.down="0.8" horizontalCenter.disabled="0" verticalCenter.disabled="0" top="0" bottom="0" left="0" right="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" fontFamily="Microsoft YaHei" border="false" stroke="2" verticalAlign="middle" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="createBtn" label="创建人物" width="133.359" height="55.411" horizontalCenter="-110.5" verticalCenter="222.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.btn_login_create" alpha.down="0.8"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" fontFamily="Microsoft YaHei" border="false" stroke="2" verticalAlign="middle" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="recoverBtn" label="恢复人物" width="133.359" height="55.411" horizontalCenter="-5.5" verticalCenter="222.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.btn_login_recover" alpha.down="0.8"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="18" fontFamily="Microsoft YaHei" border="false" stroke="2" verticalAlign="middle" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="backBtn" label="返回" width="133.359" height="55.411" horizontalCenter="101.5" verticalCenter="222.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.btn_login_quit" alpha.down="0.8"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" fontFamily="Microsoft YaHei" border="false" stroke="2" verticalAlign="middle" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="deleteBtn" label="删除人物" width="133.359" height="55.411" horizontalCenter="-5.5" verticalCenter="264.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.btn_login_delete" alpha.down="0.8"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" fontFamily="Microsoft YaHei" border="false" stroke="2" verticalAlign="middle" textAlign="center"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="ny_createrole-sheet_json.ico_no1" horizontalCenter="-372.5" verticalCenter="177.5"/>
+	<e:Image source="ny_createrole-sheet_json.ico_no2" horizontalCenter="242.5" verticalCenter="179.5"/>
+	<e:Image source="ny_createrole-sheet_json.word_create_name" horizontalCenter="-373.5" verticalCenter="216"/>
+	<e:Image source="ny_createrole-sheet_json.word_create_level" horizontalCenter="-373.5" verticalCenter="242"/>
+	<e:Image source="ny_createrole-sheet_json.word_login_zhiye" horizontalCenter="-373.5" verticalCenter="268"/>
+	<e:Rect width="108.47" height="20" horizontalCenter="-290" verticalCenter="216"/>
+	<e:Rect width="108.47" height="20" horizontalCenter="-290" verticalCenter="242"/>
+	<e:Rect width="108.47" height="20" horizontalCenter="-290" verticalCenter="268"/>
+	<e:Group id="creationPanel" visible="false" horizontalCenter="118.5" verticalCenter="-40.5">
+		<e:Image source="nbg_cjzy_06_png" height="351" x="0" y="0"/>
+		<e:Image source="ny_createrole-sheet_json.nword_cjzy_01" x="82" y="43"/>
+		<e:Image source="ny_createrole-sheet_json.nword_cjzy_02" x="82" y="107.77"/>
+		<e:Image source="ny_createrole-sheet_json.nword_cjzy_03" x="82" y="193.16"/>
+		<e:Button id="submitBtn" label="提交" x="50.5" y="263.96">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.btn_login_confirm" alpha.down="0.8"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" verticalAlign="middle" stroke="2" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Rect width="130.873" height="20" x="43.57" y="75.27"/>
+		<e:Button id="diceBtn" x="173.545" y="84.77" anchorOffsetX="22" anchorOffsetY="22">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image source="ny_createrole-sheet_json.nbtn_cjzy_03" anchorOffsetX="22" anchorOffsetY="22" horizontalCenter="0" verticalCenter="0" scaleX.down="0.9" scaleY.down="0.9"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button x="29.23" y="139.16">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.nicon_cjzy_01_1" source.down="ny_createrole-sheet_json.nicon_cjzy_01_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button x="52.5" y="216">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.nicon_cjzy_06_1" source.down="ny_createrole-sheet_json.nicon_cjzy_06_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button x="118.5" y="216">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.nicon_cjzy_05" source.down="ny_createrole-sheet_json.nicon_cjzy_05_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button x="87" y="139.16">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.nicon_cjzy_02" source.down="ny_createrole-sheet_json.nicon_cjzy_02_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button x="150.5" y="139.16">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ny_createrole-sheet_json.nicon_cjzy_03" source.down="ny_createrole-sheet_json.nicon_cjzy_03_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:EditableText id="nameInput" width="106.631" height="20" text="哈哈哈哈" x="47.77" y="75.27" size="14" verticalAlign="bottom" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Group id="charactorGroup" horizontalCenter="-181" verticalCenter="-45">
+		<e:Image id="charactorImg" source="ny_createrole-sheet_json.nimg_carrer1_1" x="0" y="0"/>
+	</e:Group>
+	<e:Label height="16" width="101.749" text="{role.name}" size="12" horizontalCenter="-290" verticalCenter="218"/>
+	<e:Label height="16" width="101.749" size="12" text="{role.job}" horizontalCenter="-290" verticalCenter="270"/>
+	<e:Label height="16" width="101.749" size="12" text="{role.level}" horizontalCenter="-290" verticalCenter="242"/>
+</e:Skin>

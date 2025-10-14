@@ -1,0 +1,21 @@
+{
+  "design": {
+    "height": "640",
+    "width": "1136"
+  },
+  "199d3297386": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": false,
+    "useBgColor": false,
+    "backgroundAlpha": 100
+  },
+  "199d386b9bc": {
+    "backgroundType": "user",
+    "backgroundColor": "#000000",
+    "useBgImage": false,
+    "useBgColor": true
+  }
+}

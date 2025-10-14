@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.LoadingProgressBarSkin"
+	 width="956"
+	height="60" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="preload-sheet_json.qufu_ProgressBg4" x="0" y="0"/>
+	<e:Label id="labelDisplay" text="正在加载中……（0/100）" y="31.45" size="20" fontFamily="KaiTi" horizontalCenter="0"/>
+	<e:Group id="thumb" x="17.79" y="8.66" width="900">
+		<e:Image source="preload-sheet_json.qufu_ProgressBg5" y="0" fillMode="clip" left="0" right="0"/>
+		<e:Image source="preload-sheet_json.bg_loading_04" right="-19" top="-22" visible="false"/>
+	</e:Group>
+</e:Skin>

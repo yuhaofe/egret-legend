@@ -1,0 +1,390 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json",
+			"name": "preload"
+		},
+		{
+			"keys": "nbg_cjzy_02_jpg,nbg_cjzy_06_png,ny_createrole-sheet_json,carrer1_1_json,carrer1_1_png",
+			"name": "role_creation"
+		},
+		{
+			"keys": "bg_loading_jpg,preload-sheet_json",
+			"name": "game_preload"
+		},
+		{
+			"keys": "91018024_json,91018023_json,91018022_json,91018021_json,91018020_json,91018014_json,91018013_json,91018012_json,91018011_json,91018010_json,91018044_json,91018043_json,91018042_json,91018041_json,91018040_json,4021024_json,4021023_json,4021022_json,4021021_json,4021020_json,4021014_json,4021013_json,4021012_json,4021011_json,4021010_json,4021040_json,4021041_json,4021042_json,4021043_json,4021044_json,y_common_minIcon-sheet_json,bossTipFont_png,bossTipFont_fnt,click_png,click_json",
+			"name": "game_scene"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/nbg_cjzy_06.png",
+			"type": "image",
+			"name": "nbg_cjzy_06_png"
+		},
+		{
+			"url": "assets/bg_loading.jpg",
+			"type": "image",
+			"name": "bg_loading_jpg"
+		},
+		{
+			"url": "assets/nbg_cjzy_02.jpg",
+			"type": "image",
+			"name": "nbg_cjzy_02_jpg"
+		},
+		{
+			"url": "assets/sheet/ny_createrole-sheet.json",
+			"type": "sheet",
+			"name": "ny_createrole-sheet_json",
+			"subkeys": "btn_login_confirm,btn_login_create,btn_login_delete,btn_login_quit,btn_login_recover,btn_login_sel_1,btn_login_sel_2,btn_login_start,ico_no1,ico_no2,nbg_cjzy_00,nbtn_cjzy_03,ncrer_invitebg,nicon_cjzy_01,nicon_cjzy_01_1,nicon_cjzy_02,nicon_cjzy_02_1,nicon_cjzy_03,nicon_cjzy_03_1,nicon_cjzy_04,nicon_cjzy_04_1,nicon_cjzy_05,nicon_cjzy_05_1,nicon_cjzy_06,nicon_cjzy_06_1,nimg_1role1_1,nimg_1role1_2,nimg_1role2_1,nimg_1role2_2,nimg_1role3_1,nimg_1role3_2,nimg_carrer1_1,nimg_carrer1_2,nimg_carrer2_1,nimg_carrer2_2,nimg_carrer3_1,nimg_carrer3_2,nimg_role1_1,nimg_role1_2,nimg_role2_1,nimg_role2_2,nimg_role3_1,nimg_role3_2,nword_cjzy_01,nword_cjzy_02,nword_cjzy_03,word_create_job_01,word_create_job_01_chosen,word_create_job_02,word_create_job_02_chosen,word_create_job_03,word_create_job_03_chosen,word_create_level,word_create_name,word_login_zhiye"
+		},
+		{
+			"url": "assets/sheet/preload-sheet.json",
+			"type": "sheet",
+			"name": "preload-sheet_json",
+			"subkeys": "bg_cirload,bg_load,bg_loading_04,qufu_ProgressBg4,qufu_ProgressBg5,qufu_barlight,qufu_bg,qufu_blackbg,qufu_checkbox_select_down,qufu_checkbox_select_up,qufu_checkbox_unselect,qufu_handle,qufu_off,qufu_on,qufu_titleSmall,tuozhanjiemian2"
+		},
+		{
+			"url": "assets/carrer1_1.png",
+			"type": "image",
+			"name": "carrer1_1_png"
+		},
+		{
+			"url": "assets/carrer1_1.json",
+			"type": "json",
+			"name": "carrer1_1_json"
+		},
+		{
+			"url": "assets/model/player/91018014.json",
+			"type": "sheet",
+			"name": "91018014_json",
+			"subkeys": "0,1,2,3,4"
+		},
+		{
+			"url": "assets/model/player/91018013.json",
+			"type": "sheet",
+			"name": "91018013_json",
+			"subkeys": "0,1,2,3,4"
+		},
+		{
+			"url": "assets/model/player/91018021.json",
+			"type": "sheet",
+			"name": "91018021_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/player/91018020.json",
+			"type": "sheet",
+			"name": "91018020_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/player/91018022.json",
+			"type": "sheet",
+			"name": "91018022_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/player/91018023.json",
+			"type": "sheet",
+			"name": "91018023_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/player/91018024.json",
+			"type": "sheet",
+			"name": "91018024_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/player/91018010.json",
+			"type": "sheet",
+			"name": "91018010_json",
+			"subkeys": "0,1,2,3,4"
+		},
+		{
+			"url": "assets/model/player/91018011.json",
+			"type": "sheet",
+			"name": "91018011_json",
+			"subkeys": "0,1,2,3,4"
+		},
+		{
+			"url": "assets/model/player/91018012.json",
+			"type": "sheet",
+			"name": "91018012_json",
+			"subkeys": "0,1,2,3,4"
+		},
+		{
+			"url": "assets/model/enemy/4021012.json",
+			"type": "sheet",
+			"name": "4021012_json",
+			"subkeys": "0,1,2,3"
+		},
+		{
+			"url": "assets/model/enemy/4021020.json",
+			"type": "sheet",
+			"name": "4021020_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/model/enemy/4021014.json",
+			"type": "sheet",
+			"name": "4021014_json",
+			"subkeys": "0,1,2,3"
+		},
+		{
+			"url": "assets/model/enemy/4021021.json",
+			"type": "sheet",
+			"name": "4021021_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/model/enemy/4021013.json",
+			"type": "sheet",
+			"name": "4021013_json",
+			"subkeys": "0,1,2,3"
+		},
+		{
+			"url": "assets/model/enemy/4021024.json",
+			"type": "sheet",
+			"name": "4021024_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/model/enemy/4021023.json",
+			"type": "sheet",
+			"name": "4021023_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/model/enemy/4021022.json",
+			"type": "sheet",
+			"name": "4021022_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/model/enemy/4021011.json",
+			"type": "sheet",
+			"name": "4021011_json",
+			"subkeys": "0,1,2,3"
+		},
+		{
+			"url": "assets/model/enemy/4021010.json",
+			"type": "sheet",
+			"name": "4021010_json",
+			"subkeys": "0,1,2,3"
+		},
+		{
+			"url": "assets/model/player/91018041.json",
+			"type": "sheet",
+			"name": "91018041_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/player/91018043.json",
+			"type": "sheet",
+			"name": "91018043_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/player/91018040.json",
+			"type": "sheet",
+			"name": "91018040_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/player/91018042.json",
+			"type": "sheet",
+			"name": "91018042_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/player/91018044.json",
+			"type": "sheet",
+			"name": "91018044_json",
+			"subkeys": "0,1,2,3,4,5,6,7"
+		},
+		{
+			"url": "assets/model/enemy/4021040.json",
+			"type": "sheet",
+			"name": "4021040_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/model/enemy/4021041.json",
+			"type": "sheet",
+			"name": "4021041_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/model/enemy/4021042.json",
+			"type": "sheet",
+			"name": "4021042_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/model/enemy/4021043.json",
+			"type": "sheet",
+			"name": "4021043_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/model/enemy/4021044.json",
+			"type": "sheet",
+			"name": "4021044_json",
+			"subkeys": "0,1,2,3,4,5"
+		},
+		{
+			"url": "assets/sheet/y_common_minIcon-sheet.json",
+			"type": "sheet",
+			"name": "y_common_minIcon-sheet_json",
+			"subkeys": "bag_bar_bg,com_act_line,com_bg4,com_btnArrow,com_btnArrow_01,com_ertitle,com_ertitle1,com_fbbg0,com_fbbg1,com_fbbg2,com_jybg,com_line1,com_line2,com_line_h,com_line_v,com_line_white,com_line_white1,com_line_yellow,com_namedi,com_pro,com_pro2,com_pro_bg,com_pro_bg1,com_pro_bg2,com_prop_allow,com_selectImg4,com_txt_bgi1,com_ybg1,com_ylinedi,dailyP,y_com_line0,y_com_select,y_select,y_select2,z_alert_line,z_com_allow"
+		},
+		{
+			"url": "assets/bossTipFont.fnt",
+			"type": "font",
+			"name": "bossTipFont_fnt"
+		},
+		{
+			"url": "assets/bossTipFont.png",
+			"type": "image",
+			"name": "bossTipFont_png"
+		},
+		{
+			"url": "assets/click.png",
+			"type": "image",
+			"name": "click_png"
+		},
+		{
+			"url": "assets/click.json",
+			"type": "json",
+			"name": "click_json"
+		},
+		{
+			"url": "assets/item.png",
+			"type": "image",
+			"name": "item_png"
+		}
+	]
+}

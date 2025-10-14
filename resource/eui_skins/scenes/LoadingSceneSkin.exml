@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.LoadingSceneSkin"
+	 width="1136"
+	height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="199d3297386"/>
+	<e:Image id="loadingBg" left="0" right="0" top="0" bottom="0" source="bg_loading_jpg" fillMode="scale"/>
+	<e:ProgressBar id="progressBar" horizontalCenter="0" bottom="45" skinName="skins.LoadingProgressBarSkin" maximum="1000"/>
+	<e:Label id="fileLabel" text="文件" fontFamily="KaiTi" size="16" horizontalCenter="0" bottom="27" textColor="0xB3B3B3"/>
+</e:Skin>

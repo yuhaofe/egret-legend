@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.ToastSkin"
+	 width="240"
+	height="30" xmlns:e="http://ns.egret.com/eui">
+	<e:Rect left="0" right="0" top="0" bottom="0" alpha="0.9"/>
+	<e:Label id="toastLabel" text="{message}" left="0" right="0" top="0" bottom="0" verticalAlign="middle" textAlign="center" size="16" fontFamily="Microsoft YaHei"/>
+</e:Skin>

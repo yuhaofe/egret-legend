@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.GameUISkin.exml"
+	 width="1136"
+	height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:ProgressBar id="hpBar" width="400" height="15" horizontalCenter="0" bottom="80" value="1000" visible="true" maximum="1000">
+        <e:Skin width="200" height="10">
+            <e:Rect ellipseWidth="10" ellipseHeight="10" strokeWeight="2" left="0" right="0" top="0" bottom="0" fillColor="0x000000" fillAlpha="0.8" strokeColor="0xA57323"/>
+            <e:Rect id="thumb" ellipseWidth="10" ellipseHeight="10" strokeWeight="0" left="2" right="2" top="2" bottom="2" fillAlpha="1" fillColor="0xFF0606"/>
+        </e:Skin>
+    </e:ProgressBar>
+	<e:Image source="y_common_minIcon-sheet_json.z_com_allow" horizontalCenter="0" scale9Grid="73,0,108,12" width="571" fillMode="repeat" bottom="82" locked="true"/>
+	<e:Group width="150" height="150" visible="true" right="0" top="0">
+		<e:Image source="y_common_minIcon-sheet_json.com_ylinedi" left="0" right="0" top="0" bottom="0"/>
+		<e:Component id="miniMapContainer" top="3" bottom="3" right="3" left="3"/>
+		<e:Rect width="5" height="5" ellipseWidth="5" ellipseHeight="5" horizontalCenter="0" verticalCenter="0" fillColor="0xD8B003"/>
+	</e:Group>
+	<e:Label id="killCountLabel" text="击杀数量：0" horizontalCenter="0" top="50" fontFamily="KaiTi" stroke="2"/>
+</e:Skin>
