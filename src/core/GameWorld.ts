@@ -60,7 +60,11 @@ class GameWorld extends egret.DisplayObjectContainer {
   private onBackgroundTouchBegin(event: egret.TouchEvent) {
     const direction = Direction.Utils.getDirectionFromRectangle(Direction.Utils.centerToTopLeft(this.player), { x:event.localX, y: event.localY });
     this.player.setDirection(direction);
-    this.player.startNav({ x:event.localX, y: event.localY });
+
+    const walkable = this.map.isNextBlockWalkable(this.player.x, this.player.y, this.player.direction);
+    if (walkable) {
+      this.player.startNav({ x:event.localX, y: event.localY });
+    }
     this.touchBeginTime = egret.getTimer();
 
     this.playClickAnimation({ x: event.localX, y: event.localY });
@@ -101,7 +105,11 @@ class GameWorld extends egret.DisplayObjectContainer {
 
     const direction = Direction.Utils.getDirectionFromRectangle(Direction.Utils.centerToTopLeft(this.player), { x:event.localX, y: event.localY });
     this.player.setDirection(direction);
-    this.player.startMove();
+
+    const walkable = this.map.isNextBlockWalkable(this.player.x, this.player.y, this.player.direction);
+    if (walkable) {
+      this.player.startMove();
+    }
   }
 
   private onBackgroundTouchEnd(event: egret.TouchEvent) {

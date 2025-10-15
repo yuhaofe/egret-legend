@@ -5,7 +5,7 @@ class Map extends egret.DisplayObjectContainer {
   public static MAP_GRID_WIDTH = 48;
   public static MAP_GRID_HEIGHT = 32;
 
-  public blocks: Array<Array<boolean>> = [[]];
+  public blocks: Array<Array<boolean>> = [];
   private coverDic: {[key: number]: boolean} = {};
   private safeDic: {[key: number]: boolean} = {};
 
@@ -116,27 +116,35 @@ class Map extends egret.DisplayObjectContainer {
   }
 
   public isBlockWalkable(x:number, y:number) {
-    let blockX = Math.floor((x + this.blockOffsetX) / Map.MAP_GRID_WIDTH);
-    let blockY = Math.floor((y + this.blockOffsetY) / Map.MAP_GRID_HEIGHT);
-    blockX = blockX >= this.blocksCol ? this.blocksCol - 1 : blockX;
-    blockY = blockY >= this.blocksRow ? this.blocksRow - 1 : blockY;
-    return !this.blocks[blockY][blockX];
+    if (this.blocks.length > 0) {
+      let blockX = Math.floor((x + this.blockOffsetX) / Map.MAP_GRID_WIDTH);
+      let blockY = Math.floor((y + this.blockOffsetY) / Map.MAP_GRID_HEIGHT);
+      blockX = blockX >= this.blocksCol ? this.blocksCol - 1 : blockX;
+      blockY = blockY >= this.blocksRow ? this.blocksRow - 1 : blockY;
+      return !this.blocks[blockY][blockX];
+    } else {
+      return false;
+    }
   }
 
   public isNextBlockWalkable(x:number, y:number, direction: Direction) {
-    const blockX = Math.floor((x + this.blockOffsetX) / Map.MAP_GRID_WIDTH);
-    const blockY = Math.floor((y + this.blockOffsetY) / Map.MAP_GRID_HEIGHT);
-    const moveDirection = [[0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, 1], [-1, 0], [-1, -1]];
-    const nextBlockX = blockX + moveDirection[direction][0];
-    const nextBlockY = blockY + moveDirection[direction][1];
-    if (nextBlockX < 0 ||
-      nextBlockX > this.blocksCol - 1 || 
-      nextBlockY < 0 ||
-      nextBlockY > this.blocksRow - 1
-    ) {
+    if (this.blocks.length > 0) {
+      const blockX = Math.floor((x + this.blockOffsetX) / Map.MAP_GRID_WIDTH);
+      const blockY = Math.floor((y + this.blockOffsetY) / Map.MAP_GRID_HEIGHT);
+      const moveDirection = [[0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, 1], [-1, 0], [-1, -1]];
+      const nextBlockX = blockX + moveDirection[direction][0];
+      const nextBlockY = blockY + moveDirection[direction][1];
+      if (nextBlockX < 0 ||
+        nextBlockX > this.blocksCol - 1 || 
+        nextBlockY < 0 ||
+        nextBlockY > this.blocksRow - 1
+      ) {
+        return false;
+      }
+      return !this.blocks[nextBlockY][nextBlockX];
+    } else {
       return false;
     }
-    return !this.blocks[nextBlockY][nextBlockX];
   }
 
   public isBlockCovered(x:number, y:number) {
