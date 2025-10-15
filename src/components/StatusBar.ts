@@ -15,7 +15,7 @@ class StatusBar extends egret.DisplayObjectContainer {
     this.background = new egret.Shape();
     this.background.graphics.lineStyle(1, 0xffffff);
     this.background.graphics.beginFill(0x000000);
-    this.background.graphics.drawRoundRect(0, 0, this.length + 1, 6, 3, 3);
+    this.background.graphics.drawRoundRect(0, 0, this.length + 1, 4, 2, 2);
     this.background.graphics.endFill();
     this.background.x = 0;
     this.background.y = 0;
@@ -24,7 +24,7 @@ class StatusBar extends egret.DisplayObjectContainer {
     const thumbLength = this._value / this.maxValue * this.length;
     this.thumb = new egret.Shape();
     this.thumb.graphics.beginFill(0xff0000);
-    this.thumb.graphics.drawRoundRect(1, 1, thumbLength, 5, 2, 2);
+    this.thumb.graphics.drawRoundRect(1, 1, thumbLength, 3, 1, 1);
     this.thumb.graphics.endFill();
     this.thumb.x = 0;
     this.thumb.y = 0;
@@ -41,7 +41,7 @@ class StatusBar extends egret.DisplayObjectContainer {
     const thumbLength = this._value / this.maxValue * this.length;
     this.thumb.graphics.clear();
     this.thumb.graphics.beginFill(0xff0000);
-    this.thumb.graphics.drawRoundRect(1, 1, thumbLength, 5, 2, 2);
+    this.thumb.graphics.drawRoundRect(1, 1, thumbLength, 3, 1, 1);
     this.thumb.graphics.endFill();
   }
 }

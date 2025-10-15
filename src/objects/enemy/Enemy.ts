@@ -62,9 +62,10 @@ class Enemy extends BaseGameObject {
     this.nameLabel.y = this.height;
     this.addChild(this.nameLabel);
 
-    this.hpBar = new StatusBar(this.hp, { maxValue: this.maxHp });
-    this.hpBar.x = -10;
-    this.hpBar.y = -30;
+    this.hpBar = new StatusBar(this.hp, { length: 80, maxValue: this.maxHp });
+    this.hpBar.x = 0;
+    this.hpBar.y = 0;
+    this.hpBar.alpha = 0;
     this.addChild(this.hpBar);
 
     this.fsm.start();
@@ -148,6 +149,9 @@ class Enemy extends BaseGameObject {
 
     this.x += this.velocity.x * deltaTime / 1000;
     this.y += this.velocity.y * deltaTime / 1000;
+
+  
+    this.hpBar && (this.hpBar.alpha = this.hp === this.maxHp ? 0 : 1);
   }
 
   private autoMove() {
